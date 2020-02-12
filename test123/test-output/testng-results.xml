@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="33236" started-at="2020-02-11T06:53:38 UTC" finished-at="2020-02-11T06:54:11 UTC">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="33236" started-at="2020-02-11T06:53:38 UTC" finished-at="2020-02-11T06:54:11 UTC">
+      <class name="casestudy.Copy">
+        <test-method status="PASS" signature="startReportBeforeTest()[pri:0, instance:casestudy.Copy@76707e36]" name="startReportBeforeTest" is-config="true" duration-ms="203" started-at="2020-02-11T06:53:38 UTC" finished-at="2020-02-11T06:53:38 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReportBeforeTest -->
+        <test-method status="PASS" signature="testRegistration()[pri:1, instance:casestudy.Copy@76707e36]" name="testRegistration" duration-ms="8906" started-at="2020-02-11T06:53:38 UTC" finished-at="2020-02-11T06:53:47 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:casestudy.Copy@76707e36]" name="getResult" is-config="true" duration-ms="16" started-at="2020-02-11T06:53:47 UTC" finished-at="2020-02-11T06:53:47 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testRegistration status=SUCCESS method=Copy.testRegistration()[pri:1, instance:casestudy.Copy@76707e36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testLogin()[pri:2, instance:casestudy.Copy@76707e36]" name="testLogin" duration-ms="9349" started-at="2020-02-11T06:53:47 UTC" finished-at="2020-02-11T06:53:56 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:casestudy.Copy@76707e36]" name="getResult" is-config="true" duration-ms="4" started-at="2020-02-11T06:53:56 UTC" finished-at="2020-02-11T06:53:56 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=Copy.testLogin()[pri:2, instance:casestudy.Copy@76707e36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testCart()[pri:3, instance:casestudy.Copy@76707e36]" name="testCart" duration-ms="2686" started-at="2020-02-11T06:53:56 UTC" finished-at="2020-02-11T06:53:59 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCart -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:casestudy.Copy@76707e36]" name="getResult" is-config="true" duration-ms="0" started-at="2020-02-11T06:53:59 UTC" finished-at="2020-02-11T06:53:59 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCart status=SUCCESS method=Copy.testCart()[pri:3, instance:casestudy.Copy@76707e36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="testPayment()[pri:4, instance:casestudy.Copy@76707e36]" name="testPayment" duration-ms="11390" started-at="2020-02-11T06:53:59 UTC" finished-at="2020-02-11T06:54:10 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPayment -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:casestudy.Copy@76707e36]" name="getResult" is-config="true" duration-ms="1" started-at="2020-02-11T06:54:10 UTC" finished-at="2020-02-11T06:54:10 UTC">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPayment status=SUCCESS method=Copy.testPayment()[pri:4, instance:casestudy.Copy@76707e36] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:casestudy.Copy@76707e36]" name="tearDown" is-config="true" duration-ms="644" started-at="2020-02-11T06:54:10 UTC" finished-at="2020-02-11T06:54:11 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- casestudy.Copy -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

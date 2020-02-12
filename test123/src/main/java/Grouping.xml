@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  
+  <groups>
+  <run>
+  <include name="regression"></include>
+  <include name="sanity"></include>
+  </run>
+  </groups>
+    <classes>
+      <class name="hdc2demos.Grouping"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

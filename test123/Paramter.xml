@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test in IE browswe">
+  
+  <parameter name="tester" value="mahita"></parameter>
+  <parameter name="location" value="Karimnagar"></parameter>
+  <parameter name="browser" value="IEE"></parameter>
+    <classes>
+      <class name="hdc2demos.ParameterGrouping"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Test in Chrome Browser">
+  
+  <parameter name="tester" value="mahita"></parameter>
+  <parameter name="location" value="Karimnagar"></parameter>
+   <parameter name="browser" value="CRM"></parameter>
+    <classes>
+      <class name="hdc2demos.ParameterGrouping"/>
+    </classes>
+      </test> <!-- Test -->
+</suite> <!-- Suite -->
